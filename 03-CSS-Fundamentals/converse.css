@@ -47,10 +47,12 @@ button:hover {
 }
 
 /* links style */
-a:link {
+a:link,
+a:visited {
   color: black;
 }
 
-a:hover {
+a:hover,
+a:active {
   text-decoration: none;
 }
