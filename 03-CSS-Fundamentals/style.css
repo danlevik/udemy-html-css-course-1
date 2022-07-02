@@ -1,9 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+* {
+}
+
+body {
   font-family: sans-serif;
   color: #444444;
 }
@@ -144,3 +142,12 @@ a:active {
 footer p {
   color: green;
 } */
+
+/* nav a:link,
+nav strong {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
