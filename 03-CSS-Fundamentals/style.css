@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
   font-family: sans-serif;
   color: #444444;
@@ -27,7 +28,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -49,6 +50,8 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -95,6 +98,8 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+
+  /* display: inline; */
 }
 
 li:last-child {
@@ -177,6 +182,22 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
 
 /* Разрешение конфликтов */
