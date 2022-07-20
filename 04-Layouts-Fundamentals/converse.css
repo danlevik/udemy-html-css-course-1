@@ -1,0 +1,142 @@
+* {
+  font-family: sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  border: 5px solid black;
+  line-height: 1.5;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sale {
+  position: absolute;
+
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 12px;
+
+  background-color: rgb(255, 45, 45);
+  color: white;
+  padding: 7px 12px;
+
+  left: -33px;
+  top: -18px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+strong {
+  font-size: 25px;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+
+  border-top: 4px solid black;
+  width: 100%;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.shipping {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  /* не сработает т.к. якоря по умолчанию не block-элементы.
+  Для задания margin элемент должен быть display:block или inline-block */
+
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.color {
+  display: inline-block;
+  background-color: #777;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.color:last-child {
+  margin-right: 0;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.details-title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.details-list {
+  margin-left: 20px;
+}
