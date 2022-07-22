@@ -2,6 +2,7 @@
   /* global reset */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* PAGE SECTIONS */
@@ -15,7 +16,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
 
   /* Позволяет контейнеру отцентроваться в браузере автоматически */
   margin-left: auto;
@@ -54,8 +55,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 /* SMALLER ELEMENTS */
@@ -88,6 +88,7 @@ h4 {
 
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -138,6 +139,7 @@ li:last-child {
 /* list-style задает стиль списка */
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 /* .first-li {
@@ -264,3 +266,43 @@ footer p {
 nav strong {
   font-size: 18px;
 } */
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
