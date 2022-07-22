@@ -3,13 +3,14 @@
 
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
   position: relative;
   border: 5px solid black;
   line-height: 1.5;
-  width: 700px;
+  width: 825px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -44,7 +45,7 @@ h3 {
 }
 
 strong {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 ul {
@@ -140,3 +141,44 @@ button:hover {
 .details-list {
   margin-left: 20px;
 }
+
+/* FLOATS */
+
+img {
+  float: left;
+  margin-right: 40px;
+}
+
+.product-info {
+  float: left;
+  width: 240px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.product-details {
+  float: left;
+  width: 240px;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+  margin-top: 10px;
+}
+
+.description {
+  clear: both;
+}
+
+/* 40px между div & img
+240px  */
