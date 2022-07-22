@@ -134,8 +134,7 @@ button:hover {
 }
 
 .details-title {
-  margin-top: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .details-list {
@@ -144,7 +143,7 @@ button:hover {
 
 /* FLOATS */
 
-img {
+/* img {
   float: left;
   margin-right: 40px;
 }
@@ -178,7 +177,45 @@ img {
 
 .description {
   clear: both;
+} */
+
+/* FLEXBOX */
+.product {
+  display: flex;
+  gap: 40px;
 }
 
-/* 40px между div & img
-240px  */
+img {
+  flex: 1;
+}
+
+.product-info {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.product-details {
+  flex: 1;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.shipping {
+  margin-bottom: 0;
+}
+
+.color-container {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  margin-right: 0;
+}
