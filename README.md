@@ -1,4 +1,6 @@
 # Итоговый проект курса по верстке
+Landing-page для сервиса доставки еды по подписке
+
 ### Название курса
 "Udemy - Build Responsive Real-World Websites with HTML and CSS course by jonasschmedtmann"
 
