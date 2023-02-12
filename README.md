@@ -1,2 +1,13 @@
-# udemy-html-css-course-1
-Udemy - Build Responsive Real-World Websites with HTML and CSS course by jonasschmedtmann
+# Итоговый проект курса по верстке
+### Название курса
+"Udemy - Build Responsive Real-World Websites with HTML and CSS course by jonasschmedtmann"
+
+### Ссылка на созданную страницу
+https://danlevik.github.io/Omnifood-Project/index.html
+
+### Приобретенные навыки
+* Рассмотрены наиболее часто используемые при верстке компоненты и их создание
+* Освоено использование семантических тегов в HTML и их предназначение
+* Рассмотрены разные единицы измерения при создании стилей в CSS
+* Освоены базовые возможности JavaScript при создании интерактивных элементов
+* Изучены основы дизайна при создании веб-страниц
